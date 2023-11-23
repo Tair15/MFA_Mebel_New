@@ -1,0 +1,28 @@
+.option_group{
+  padding: 0;
+  margin: 0;
+}
+ .option {
+    display: block;
+    color: #fff;
+    width: 100%;
+    background-color: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .option:hover {
+    background-color: rgb(0, 0, 0,0.2);
+    cursor: pointer;
+  }
+  .option.active{
+  background-color: rgb(0, 128, 0,0.3);
+  color: #fff;
+  }
+  h2{
+    padding: 10px;
+  }
+  
