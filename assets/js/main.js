@@ -152,3 +152,7 @@ function navigateToQuizHome() {
 
   window.location.href = 'quizHome.html';
 }
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
